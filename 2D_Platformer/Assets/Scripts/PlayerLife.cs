@@ -30,7 +30,7 @@ public class PlayerLife : MonoBehaviour
 
     }
 
-    private void restartLevel()
+    public void restartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
